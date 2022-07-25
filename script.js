@@ -31,7 +31,6 @@ function generatePassword() {
 
     if (window.confirm("Would you like numbers?")) {
       passwordArray = passwordArray.concat(numbers);
-      window.alert(passwordArray);
     }
     if (window.confirm("Would you like lower-case letters?")) {
       passwordArray = passwordArray.concat(lowerCase);
@@ -52,7 +51,7 @@ function generatePassword() {
     // in the array to then concatenate the character to buildPassword.
 
     for (var i = 0; i < length; i++) {
-      var index = Math.floor(Math.random() * (passwordArray.length - 1))
+      var index = Math.floor(Math.random() * (passwordArray.length))
       buildPassword = buildPassword.concat(passwordArray[index]);
     }
     return buildPassword;
