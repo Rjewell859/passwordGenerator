@@ -11,8 +11,8 @@ is reached, continues to concatenate random characters from that array. The key 
 functionality is using Math.floor in combination with Math.random multipled by the 
 characters arrays length minus one. 
 
-Link to deployed website: https://rjewell859.github.io/myPortfolio/
+Link to deployed website: https://rjewell859.github.io/passwordGenerator/
 
-Link to repository: https://github.com/Rjewell859/myPortfolio
+Link to repository: https://github.com/Rjewell859/passwordGenerator
 
-Screenshot: 
+Screenshot: ![passwordGeneratorImage](https://user-images.githubusercontent.com/66131189/180866721-25bdcaa7-52ca-4b92-884d-32be7da015ab.JPG)
